@@ -11,7 +11,6 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="webstudy" target="1.8" />
       <module name="webstudy01" target="1.8" />
       <module name="webstudy02" target="1.8" />
     </bytecodeTargetLevel>
