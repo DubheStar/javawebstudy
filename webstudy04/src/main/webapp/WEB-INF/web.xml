@@ -13,8 +13,6 @@
         <url-pattern>/registServlet</url-pattern>
     </servlet-mapping>
 
-
-
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>cn.dubhe.webstudy04.web.LoginServlet</servlet-class>
@@ -23,9 +21,5 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/loginServlet</url-pattern>
     </servlet-mapping>
-
-
-
-
     
 </web-app>

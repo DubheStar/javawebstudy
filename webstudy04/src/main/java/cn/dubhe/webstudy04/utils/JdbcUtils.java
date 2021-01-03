@@ -16,7 +16,7 @@ public class JdbcUtils {
         try {
             Properties properties = new Properties();
             // 读取 jdbc.properties属性配置文件
-            InputStream inputStream = JdbcUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
+            InputStream inputStream = JdbcUtils.class.getClassLoader().getResourceAsStream("cn/dubhe/webstudy04/jdbc.properties");
             // 从流中加载数据
             properties.load(inputStream);
             // 创建 数据库连接 池
@@ -26,7 +26,6 @@ public class JdbcUtils {
         }
 
     }
-
 
 
     /**
