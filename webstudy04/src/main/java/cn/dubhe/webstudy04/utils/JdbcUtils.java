@@ -16,7 +16,7 @@ public class JdbcUtils {
         try {
             Properties properties = new Properties();
             // 读取 jdbc.properties属性配置文件
-            InputStream inputStream = JdbcUtils.class.getClassLoader().getResourceAsStream("cn/dubhe/webstudy04/jdbc.properties");
+            InputStream inputStream = JdbcUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
             // 从流中加载数据
             properties.load(inputStream);
             // 创建 数据库连接 池
@@ -27,7 +27,9 @@ public class JdbcUtils {
 
     }
 
+    public static void main(String[] args) {
 
+    }
     /**
      * 获取数据库连接池中的连接
      * @return 如果返回null,说明获取连接失败<br/>有值就是获取连接成功
